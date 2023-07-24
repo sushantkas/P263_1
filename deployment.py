@@ -4,6 +4,7 @@ import numpy as np
 from sklearn import *
 import pickle
 
+
 with open("lightgbm_model.pkl", "rb") as file:
         model=pickle.load(file)
 
